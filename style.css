@@ -1,0 +1,172 @@
+body, html
+{
+	margin: 0;
+	padding: 0;
+	color: #444452; /**color is black*/
+	line-height: 1.5;
+	width:100%;
+	font-family: Whitney,Helvetica,Arial,sans-serif;
+}
+
+
+.navbar{
+	display: flex;
+	flex-direction: column;
+	background: red;
+}
+
+/**intro hello styling*/
+.intro-hi {
+	font-weight: 300;
+	color: black;
+	font-size: 2em;
+
+}
+/**styling for the headers, just font size and display style*/
+@media screen and (max-width: 768px)
+.intro-hi {
+	font-size: 2rem;
+}
+
+/*for the links on the bar*/
+@keyframes fade-in-right {
+	from {
+	  opacity: 0;
+	  transform: translateX(-15px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateX(0);	
+	}
+}
+
+
+
+/**styling for intro portion of first page*/
+/**need to force the content towards center, can use padding to */
+
+.intro {
+	display: flex;
+	padding: 80px 100px;
+	height: 100vh;
+	flex-direction: column; /**all following elements fall vertically*/
+	justify-content: space-around;
+	max-width: 1440px;
+	margin: 0 auto;
+	background: url("typing.gif"); /**background image*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.intro-pitch {
+	max-width: 700px;
+	color: black;
+}
+
+.intro-contact {
+	color: black;
+	font-size: 2em;
+}
+
+.emojiman {
+	height: 40px;
+	width: 40px;
+}
+
+
+
+
+.symbol img {
+	width: 150px;
+	height: 15%;
+	float: left;
+}
+
+/**@media screen and (max-width: 768px)
+.bg_content{
+	padding-top: 30px;
+	padding-left: 50px;
+}*/
+.title {
+	font-size: 50px;
+	background: linear-gradient(#0575E6,#00F260);
+}
+
+
+/**This is styling for the paragraphs about me  */
+.who_content {
+	display: flex;
+	flex-wrap: wrap; /*trailing text wraps onto next line*/
+	font-weight: 300;
+	font-size: 1.15rem;
+	width: 100%;
+	padding-top: 30px;
+	padding-left: 100px;
+	background: linear-gradient(#00F260,#0575E6);
+}
+
+/*this will change the list of paragraphs*/
+.who_content .intro_item {
+	margin-bottom: 25px;
+	max-width: 650px; /**need this to shrink length of text*/
+}
+
+
+
+
+/**for the who are you section*/
+.background {
+	background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+	height: 100vh;
+	display: flex;
+}
+
+.skills_content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center; /*flex items show up in middle of div*/
+}
+
+.skill-header {
+
+}
+
+/**currently learning there is a blank box that appears out of nowhere
+between two divs or sections, will fix later*/
+
+/**the icon class covers the multiple skill images */
+.icon{
+	margin-right:50px;
+	display: flex;
+	height: 25vh;
+	width: 25vh;
+}
+
+
+.portfolio {
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
