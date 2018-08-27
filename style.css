@@ -149,9 +149,11 @@ between two divs or sections, will fix later*/
 	height: 500px;
 }
 
-.imageholder {
+.imageholder { /**force the images to 3 a row with flex property*/
 	display: flex;
 	flex-wrap: wrap;
+ 	flex: 0 0 calc(33.33% - 30px);
+ 	margin: 5px;
 }
 
 
