@@ -129,7 +129,8 @@ body, html
 }
 
 .skill-header {
-
+	display: flex;
+	/**shrink this header, make room for little design touches*/
 }
 
 /**currently learning there is a blank box that appears out of nowhere
