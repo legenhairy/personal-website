@@ -148,7 +148,10 @@ between two divs or sections, will fix later*/
 	height: 500px;
 }
 
-
+.imageholder {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 
 
