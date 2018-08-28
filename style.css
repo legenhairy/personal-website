@@ -109,8 +109,8 @@ body, html
 .who_content .intro_item {
 	margin-bottom: 25px;
 	max-width: 650px; /**need this to shrink length of text*/
+	display: flex;
 }
-
 
 
 
@@ -126,12 +126,14 @@ body, html
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center; /*flex items show up in middle of div*/
+	background-image: linear-gradient(to top, #F7971E 0%, #FFD200 100%);
 }
 
 .skill-header {
 	display: flex;
-	/**shrink this header, make room for little design touches*/
-	
+	background-image: linear-gradient(to top, #F7971E 0%, #FFD200 100%);
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 /**currently learning there is a blank box that appears out of nowhere
@@ -141,8 +143,8 @@ between two divs or sections, will fix later*/
 .icon{
 	margin-right:50px;
 	display: flex;
-	height: 25vh;
-	width: 25vh;
+	height: 30vh;
+	width: 30vh;
 }
 
 
