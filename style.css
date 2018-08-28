@@ -2,17 +2,9 @@ body, html
 {
 	margin: 0;
 	padding: 0;
-	color: #444452; /**color is black*/
 	line-height: 1.5;
 	width:100%;
 	font-family: Whitney,Helvetica,Arial,sans-serif;
-}
-
-
-.navbar{
-	display: flex;
-	flex-direction: column;
-	background: red;
 }
 
 /**intro hello styling*/
@@ -40,6 +32,14 @@ body, html
 	}
 }
 
+@keyframes grow-left {
+	from {
+	  transform: scaleX(0);	
+	}
+	to {
+      transform: scaleX(1);			
+	}
+}
 
 
 /**styling for intro portion of first page*/
@@ -51,8 +51,7 @@ body, html
 	height: 100vh;
 	flex-direction: column; /**all following elements fall vertically*/
 	justify-content: space-around;
-	max-width: 1440px;
-	margin: 0 auto;
+	max-width: 1340px;
 	background: url("typing.gif"); /**background image*/
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -99,6 +98,7 @@ body, html
 	flex-wrap: wrap; /*trailing text wraps onto next line*/
 	font-weight: 300;
 	font-size: 1.15rem;
+	height: 100vh;	
 	width: 100%;
 	padding-top: 30px;
 	padding-left: 100px;
@@ -127,6 +127,7 @@ body, html
 	flex-wrap: wrap;
 	justify-content: center; /*flex items show up in middle of div*/
 	background-image: linear-gradient(to top, #F7971E 0%, #FFD200 100%);
+
 }
 
 .skill-header {
@@ -145,11 +146,14 @@ between two divs or sections, will fix later*/
 	display: flex;
 	height: 30vh;
 	width: 30vh;
+
 }
 
 
 .portfolio {
 	height: 500px;
+	background-image: linear-gradient(to top, #000000 0%, #434343 100%);
+	color: white;
 }
 
 .imageholder { /**force the images to 3 a row with flex property*/
@@ -159,14 +163,22 @@ between two divs or sections, will fix later*/
  	margin: 5px;
 }
 
+.tool-heading {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.tools-wrapper {
+	background-image: linear-gradient(to top, #000000 0%, #434343 100%);
+	color: white;
+	height: 30vh;
+}
 
 
-
-
-
-
-
-
+.tool-list {
+	list-style: none;
+	padding: 0;
+}
 
 
 
