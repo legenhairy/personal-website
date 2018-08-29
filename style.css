@@ -3,7 +3,6 @@ body, html
 	margin: 0;
 	padding: 0;
 	line-height: 1.5;
-	width:100%;
 	font-family: Whitney,Helvetica,Arial,sans-serif;
 }
 
@@ -47,23 +46,27 @@ body, html
 
 .intro {
 	display: flex;
-	padding: 80px 100px;
-	height: 100vh;
+	padding: 80px 110px;
+	height: 80vh;
 	flex-direction: column; /**all following elements fall vertically*/
 	justify-content: space-around;
-	max-width: 1340px;
-	background: url("typing.gif"); /**background image*/
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: linear-gradient(to top, #000000 0%, #434343 100%); /**background image*/
+	color: white;
 }
 
-.intro-pitch {
+.me-info {
+	text-align: center;
+	font-size: 4em;
+}
+
+
+.intro .intro-pitch {
 	max-width: 700px;
-	color: black;
+	color: white;
 }
 
 .intro-contact {
-	color: black;
+	color: white;
 	font-size: 2em;
 }
 
@@ -73,36 +76,38 @@ body, html
 }
 
 
-
-
 .symbol img {
 	width: 150px;
 	height: 15%;
 	float: left;
 }
 
-/**@media screen and (max-width: 768px)
-.bg_content{
+.aboutme-wrapper {
+	display: flex;
+	flex-wrap: wrap; /*trailing text wraps onto next line*/
+	font-size: 1.15rem;
+	height: 100vh;	
+	width: 100%;
 	padding-top: 30px;
-	padding-left: 50px;
-}*/
+	background: linear-gradient(#00F260,#0575E6);
+	border-bottom: 3px solid black;
+	justify-content: space-around;
+	background-size: cover;
+}
+
+
+
 .title {
 	font-size: 50px;
 	background: linear-gradient(#0575E6,#00F260);
+	align-self: flex-start;
+
 }
 
 
 /**This is styling for the paragraphs about me  */
 .who_content {
-	display: flex;
-	flex-wrap: wrap; /*trailing text wraps onto next line*/
-	font-weight: 300;
-	font-size: 1.15rem;
-	height: 100vh;	
-	width: 100%;
-	padding-top: 30px;
-	padding-left: 100px;
-	background: linear-gradient(#00F260,#0575E6);
+	
 }
 
 /*this will change the list of paragraphs*/
@@ -127,7 +132,6 @@ body, html
 	flex-wrap: wrap;
 	justify-content: center; /*flex items show up in middle of div*/
 	background-image: linear-gradient(to top, #F7971E 0%, #FFD200 100%);
-
 }
 
 .skill-header {
