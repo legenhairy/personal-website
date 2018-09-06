@@ -184,6 +184,12 @@ between two divs or sections, will fix later*/
 	padding: 0;
 }
 
+/**the social links container*/
+.social-links {
+	height: 50vh;
+	text-align: center;
+}
+
 
 .link {
 	padding-right: 50px;
