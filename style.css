@@ -9,7 +9,7 @@ body, html
 /**intro hello styling*/
 .intro-hi {
 	font-weight: 300;
-	color: black;
+	color: white;
 	font-size: 2em;
 
 }
@@ -101,7 +101,7 @@ body, html
 	font-size: 50px;
 	background: linear-gradient(#0575E6,#00F260);
 	align-self: flex-start;
-
+	text-align: center;
 }
 
 
@@ -155,9 +155,16 @@ between two divs or sections, will fix later*/
 
 
 .portfolio {
-	height: 500px;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.15rem;
+	height: 100vh;
 	background-image: linear-gradient(to top, #000000 0%, #434343 100%);
 	color: white;
+}
+
+.port-img {
+
 }
 
 .imageholder { /**force the images to 3 a row with flex property*/
