@@ -149,10 +149,8 @@ between two divs or sections, will fix later*/
 /**the icon class covers the multiple skill images */
 .icon{
 	margin-right:50px;
-	display: flex;
 	height: 30vh;
 	width: 30vh;
-
 }
 
 /*the PARENT CONTAINER for the project divs*/
@@ -167,17 +165,11 @@ between two divs or sections, will fix later*/
 	color: white;
 }
 
-
-
 /*centering of header text*/
 .portfolio-item .project1 {
 	text-align: center;
 }
 
-
-.port-img {
-
-}
 
 .portfolio-item .project-info {
 	margin-top: 10px;
@@ -213,14 +205,12 @@ between two divs or sections, will fix later*/
 .social-links {
 	display: flex;
 	height: 50vh;
-	text-align: center;
+	justify-content: center;
 }
 
 
 .link {
 	padding-right: 50px;
-	align-content: flex-end;
-
 }
 
 /*the linkedin letters showed up way too big initially*/
