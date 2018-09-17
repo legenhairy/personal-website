@@ -184,19 +184,23 @@ between two divs or sections, will fix later*/
 .tool-heading {
 	margin-top: 0px;
 	margin-bottom: 0px;
+	padding-top: 10px;
+	text-align: center;
 }
 
+/*this will be a flex container holding circular icons*/
 .tools-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	background-image: linear-gradient(to top, #000000 0%, #434343 100%);
 	color: white;
-	height: 30vh;
 }
 
 
-.tool-list {
-	list-style: none;
-	padding: 0;
-}
+
+
 
 /**the social links container*/
 .social-links {
