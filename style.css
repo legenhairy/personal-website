@@ -197,8 +197,18 @@ between two divs or sections, will fix later*/
 	background-image: linear-gradient(to top, #000000 0%, #434343 100%);
 	color: white;
 }
-
-
+/**the circles are flex contianers themselves*/
+.tool {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 22vw; /**we have a row of 4 circles*/
+	height: 22vw;
+	border-radius: 100%;
+	padding-left: 10px;
+	background-color: blue;
+	margin-right: 20px; /**adding spacing between the circles*/
+}
 
 
 
